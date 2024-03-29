@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Complete Responsive Portfolio Website</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo"><h1>Akanksha Singh</h1></a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#service" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#mywork" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Web Developer</span> </h1>
+
+                <a href="#" class="button">Contact Me</a>
+            </div>
+
+            <div class="home__img">
+                <img src="images/ppp.png" alt="">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="images/pp.png" alt="">
+                </div>
+
+                <div>
+                    <p class="about__text">Hello! I'm Akanksha Singh, a passionate web developer dedicated to crafting engaging and functional websites. With a keen eye for design and a love for coding, I create digital experiences that not only look great but also perform seamlessly. I thrive in collaborative environments, where I can leverage my skills to bring ideas to life.
+                        <br>
+                        <br>
+                        Specializing in creating dynamic and user-friendly websites. With expertise in React.js for front-end interfaces, Node.js for robust back-end development, and SQL/MongoDB for efficient data management, I craft seamless digital experiences. Whether it's building full-stack e-commerce platforms with user authentication, designing responsive portfolio websites with modern aesthetics, or developing task management apps with real-time updates, I thrive on turning ideas into functional reality. Let's collaborate on your next web project! 
+                    </p> 
+                </div>
+            </div>
+        </section>
+
+        <!--===== SERVICES =====-->
+        <section class="service section" id="service">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="ag-format-container">
+                <div class="ag-courses_box">
+                    <div class="ag-courses_item">
+                        <a href="#" class="ag-courses-item_link">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                Frontend
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                <span class="ag-courses-item_date">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, necessitatibus! Magni in dolorum beatae cum, alias, necessitatibus placeat ducimus eligendi eum officia animi consequuntur dolorem? Officia non modi asperiores deserunt.</p>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="ag-courses_item">
+                        <a href="#" class="ag-courses-item_link">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                Backend
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                <span class="ag-courses-item_date">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam libero voluptas temporibus fugit quod facilis doloremque veritatis excepturi porro illum accusamus consequuntur dolor, voluptate delectus numquam mollitia labore fuga maxime!</p>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+        </section>
+
+        <!--===== MY WORK =====-->
+        <section class="work section" id="mywork">
+            <h2 class="section-title">My Work</h2>
+
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                    <img src="th.jpeg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="shopping-online.jpg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="music-symbols-logo-and-icons-template-vector.jpg" alt="">
+                </div>
+                
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact Me</h2>
+
+            <div class="home__social">
+                <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="" class="home__social-icon"><i class='bx bxl-behance'></i></a>
+                <a href="" class="home__social-icon"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="mail" placeholder="Email" class="contact__input">
+                    <textarea name="" placeholder="Message" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="button" value="Send" class="contact__button button">
+                </form>
+
+            </div>
+
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Akanksha Singh</p>
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <p>&#169; 2021 copyright all right reserved</p>
+    </footer>
+</body>
+
+</html>
